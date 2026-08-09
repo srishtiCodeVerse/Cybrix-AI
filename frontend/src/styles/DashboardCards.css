@@ -1,0 +1,30 @@
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:25px;
+}
+
+.card{
+background:#1E293B;
+padding:30px;
+border-radius:18px;
+box-shadow:0 0 20px rgba(37,99,235,.15);
+transition:.3s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 30px rgba(37,99,235,.45);
+}
+
+.card h2{
+color:#60A5FA;
+margin-bottom:15px;
+}
+
+.card p{
+font-size:22px;
+font-weight:bold;
+}

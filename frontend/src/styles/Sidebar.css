@@ -1,0 +1,32 @@
+.sidebar{
+width:260px;
+background:#111827;
+padding:30px;
+min-height:100vh;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:40px;
+color:#3B82F6;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+padding:16px;
+margin-bottom:15px;
+background:#1F2937;
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+font-size:18px;
+}
+
+.sidebar li:hover{
+background:#2563EB;
+transform:translateX(5px);
+}

@@ -1,0 +1,44 @@
+.profile-page{
+padding:20px;
+color:white;
+}
+
+.profile-card{
+width:420px;
+background:#1E293B;
+padding:30px;
+border-radius:18px;
+margin-top:30px;
+text-align:center;
+box-shadow:0 0 20px rgba(37,99,235,.25);
+}
+
+.avatar{
+font-size:70px;
+margin-bottom:20px;
+}
+
+.profile-card h2{
+margin-bottom:15px;
+color:#60A5FA;
+}
+
+.profile-card p{
+margin-bottom:12px;
+font-size:18px;
+}
+
+.profile-card button{
+margin-top:20px;
+padding:12px 20px;
+background:#2563EB;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+.profile-card button:hover{
+background:#1D4ED8;
+}

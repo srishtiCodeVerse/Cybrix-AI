@@ -1,0 +1,46 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 30px;
+background:#1E293B;
+border-radius:15px;
+margin-bottom:30px;
+}
+
+.nav-left h2{
+color:#60A5FA;
+font-size:28px;
+}
+
+.nav-right{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.nav-right input{
+padding:10px 15px;
+width:250px;
+border:none;
+border-radius:8px;
+outline:none;
+font-size:15px;
+}
+
+.notify{
+background:#2563EB;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-size:18px;
+}
+
+.profile{
+background:#334155;
+padding:10px 20px;
+border-radius:10px;
+font-weight:bold;
+}

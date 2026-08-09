@@ -1,0 +1,36 @@
+.threat-chart{
+background:#1E293B;
+margin-top:30px;
+padding:25px;
+border-radius:18px;
+}
+
+.threat-chart h2{
+margin-bottom:25px;
+color:#60A5FA;
+}
+
+.bars{
+display:flex;
+justify-content:space-around;
+align-items:flex-end;
+height:250px;
+}
+
+.bar{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.fill{
+width:40px;
+background:#2563EB;
+border-radius:8px 8px 0 0;
+transition:.3s;
+}
+
+.fill:hover{
+background:#60A5FA;
+}

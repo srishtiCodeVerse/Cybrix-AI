@@ -1,0 +1,180 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",sans-serif;
+}
+
+.dashboard{
+display:flex;
+min-height:100vh;
+background:#0F172A;
+color:white;
+}
+
+/* ================= Sidebar ================= */
+
+.sidebar{
+width:260px;
+background:#111827;
+padding:30px;
+min-height:100vh;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:40px;
+color:#3B82F6;
+font-size:30px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar li{
+padding:16px;
+margin-bottom:14px;
+background:#1F2937;
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+font-size:20px;
+}
+
+.sidebar li:hover{
+background:#2563EB;
+transform:translateX(5px);
+}
+
+/* ================= Main ================= */
+
+.main{
+flex:1;
+padding:40px;
+overflow:auto;
+}
+
+.main h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.main p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+/* ================= Dashboard Cards ================= */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1E293B;
+padding:30px;
+border-radius:18px;
+transition:.3s;
+box-shadow:0 0 20px rgba(37,99,235,.2);
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 30px rgba(37,99,235,.45);
+}
+
+.card h2{
+margin-bottom:18px;
+color:#60A5FA;
+font-size:30px;
+}
+
+.card p{
+font-size:22px;
+}
+
+/* ================= AI Assistant ================= */
+
+.chat-page{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.chat-page h1{
+margin-bottom:10px;
+}
+
+.chat-box{
+background:#1E293B;
+border-radius:18px;
+padding:20px;
+height:500px;
+overflow-y:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+box-shadow:0 0 25px rgba(37,99,235,.2);
+}
+
+.message{
+padding:15px 18px;
+border-radius:15px;
+max-width:70%;
+font-size:18px;
+line-height:1.5;
+word-wrap:break-word;
+}
+
+.bot{
+background:#334155;
+align-self:flex-start;
+}
+
+.user{
+background:#2563EB;
+align-self:flex-end;
+}
+
+.chat-page input{
+margin-top:20px;
+padding:16px;
+font-size:18px;
+border:none;
+border-radius:12px;
+outline:none;
+}
+
+.chat-page button{
+margin-top:15px;
+padding:16px;
+font-size:20px;
+background:#2563EB;
+color:white;
+border:none;
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+}
+
+.chat-page button:hover{
+background:#1D4ED8;
+}
+
+/* ================= Scrollbar ================= */
+
+.chat-box::-webkit-scrollbar{
+width:8px;
+}
+
+.chat-box::-webkit-scrollbar-thumb{
+background:#3B82F6;
+border-radius:10px;
+}
+
+.chat-box::-webkit-scrollbar-track{
+background:#1E293B;
+}
